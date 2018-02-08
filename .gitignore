@@ -1,6 +1,8 @@
 *.class
+*.war
 *.iml
-*.xml
+.idea
+out
 
 
 
