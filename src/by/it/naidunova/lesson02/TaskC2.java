@@ -24,7 +24,7 @@ class TaskC2 {
         b= in.nextInt();
         c = a + b;
         System.out.print("DEC");
-        System.out.print(" ");
+        System.out.print(":");
         System.out.println(a + "+" + b + "=" + c);
 
         // Бинарный формат числа
@@ -32,7 +32,7 @@ class TaskC2 {
         String b1 = Integer.toBinaryString(b);
         String c1 = Integer.toBinaryString(c);
         System.out.print ("BIN");
-        System.out.print(" ");
+        System.out.print(":");
         System.out.println(a1 + "+" + b1 + "=" + c1);
 
         // Шеснадцатиричная форма
@@ -40,7 +40,7 @@ class TaskC2 {
         String b2 = Integer.toHexString(b);
         String c2 = Integer.toHexString(c);
         System.out.print ("HEX");
-        System.out.print(" ");
+        System.out.print(":");
         System.out.println(a2 + "+" + b2 + "=" + c2);
 
 
@@ -49,7 +49,7 @@ class TaskC2 {
         String b3 = Integer.toOctalString(b);
         String c3 = Integer.toOctalString(c);
         System.out.print("OCT");
-        System.out.print(" ");
+        System.out.print(":");
         System.out.println(a3 + "+" + b3 + "=" + c3);
 
 

@@ -20,8 +20,7 @@ class TaskC1 {
         System.out.println("Введите число b ");
         b = in.nextInt();
         c = a + b;
-        System.out.print("Sum = ");
-        System.out.print(c);
+        System.out.println("Sum = " + c);
 
     }
 
