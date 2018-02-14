@@ -31,12 +31,19 @@ import static java.lang.System.in;
 Вывод:
 29.51
 
-
 */
 class TaskC3 {
-
-
+        public static double getWeight(int weightE) {
+                double m = weightE/9.81;
+                double weightM = m*3.86;
+                return Math.rint(weightM*100)/100;
         }
+        public static void main(String[] args) {
+                Scanner sc = new Scanner(in);
+                int weightE = sc.nextInt();
+                System.out.println(getWeight(weightE));
+        }
+}
 
 
 
