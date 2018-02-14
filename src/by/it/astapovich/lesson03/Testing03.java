@@ -13,12 +13,12 @@ import static org.junit.Assert.*;
 public class Testing03 {
 
 
-    @Test(timeout = 500)
+    @Test(timeout = 1500)
     public void testTaskA1() throws Exception {
         run("7 2").include("9 5 14 3 1\n9.0 5.0 14.0 3.5 1.0");
     }
 
-    @Test(timeout = 500)
+    @Test(timeout = 1500)
     public void testTaskA2() throws Exception {
         Testing03 testing = run("");
         String[] lines = testing.stringWriter.toString().trim().split("\\n");
@@ -37,7 +37,7 @@ public class Testing03 {
         }
     }
 
-    @Test(timeout = 500)
+    @Test(timeout = 1500)
     public void testTaskB1() throws Exception {
         run("").include("575.222")
                 .include("111.111 ")
