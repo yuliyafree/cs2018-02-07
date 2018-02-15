@@ -1,6 +1,5 @@
 package by.it.malaschenok.lesson02;
 
-import com.sun.org.apache.xpath.internal.SourceTree;
 
 /*
 напишите тело main программы которая выводит на экран 5 строк
