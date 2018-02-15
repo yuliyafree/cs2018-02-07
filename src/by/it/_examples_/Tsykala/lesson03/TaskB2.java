@@ -1,4 +1,4 @@
-package by.it.Tsykala.lesson03;
+package by.it._examples_.Tsykala.lesson03;
 
 /*
 Lesson 04. Task B2. Нужно написать программу, которая вводит три числа  a b c типа int с клавиатуры

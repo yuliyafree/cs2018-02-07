@@ -1,4 +1,4 @@
-package by.it.Tsykala.lesson03;
+package by.it._examples_.Tsykala.lesson03;
 /*
 Lesson 04. Task B1. Литералы.
 
