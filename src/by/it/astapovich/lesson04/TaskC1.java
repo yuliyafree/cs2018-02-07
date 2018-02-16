@@ -63,6 +63,7 @@ public class TaskC1 {
                             break done;
                         }
                         break;
+                        
 
                     case 2:
                         System.out.println("За февраль начислено $" + salary1);
