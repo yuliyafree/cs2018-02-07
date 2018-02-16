@@ -25,6 +25,20 @@ package by.it.makarova.lesson04;
  */
 
 
+import java.util.Scanner;
+
 public class TaskB3 {
 
-}
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int predel = sc.nextInt();
+        int n; int sum = 1;
+        for (n=1; (sum+n)<=predel; n++){
+            sum = ((n*(n+1))/2);
+            System.out.printf("%d"+",",sum);
+        }
+
+    }
+
+    }
+
