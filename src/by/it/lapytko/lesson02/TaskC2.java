@@ -1,5 +1,6 @@
 package by.it.lapytko.lesson02;
 
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 /* Нужно написать программу, которая вводит два числа с клавиатуры
@@ -23,12 +24,15 @@ class TaskC2 {
         int result=i+j;
         System.out.print("DEC:34+26=");
         System.out.println(result);
-            System.out.print("BIN:100010+11010=");
+            System.out.print("BIN:");
+        System.out.print(Integer.toBinaryString(i)+"+"+Integer.toBinaryString(j)+"=");
         System.out.println(Integer.toBinaryString(result));
-        System.out.print("HEX:22+1a=");
+        System.out.print("HEX:");
+        System.out.print(Integer.toHexString(i)+"+"+Integer.toHexString(j)+"=");
         System.out.println(Integer.toHexString(result));
-        System.out.print("OCT:42+32=");
-        System.out.print(Integer.toOctalString(result));
+        System.out.print("OCT:");
+        System.out.print(Integer.toOctalString(i)+"+"+Integer.toOctalString(j)+"=");
+        System.out.println(Integer.toOctalString(result));
 
 
 
