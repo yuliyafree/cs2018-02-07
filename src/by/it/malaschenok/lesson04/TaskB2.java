@@ -39,6 +39,7 @@ public class TaskB2 {
                 b++;
                 x = 1;
                             }
+
                     }
 
         }

@@ -38,5 +38,7 @@ public class TaskA2 {
         else if (x==6) System.out.println("суббота");
         else if (x==7) System.out.println("воскресенье");
         else System.out.println("такого дня недели не существует");
+
+
     }
 }

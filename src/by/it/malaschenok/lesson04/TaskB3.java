@@ -25,6 +25,7 @@ package by.it.malaschenok.lesson04;
  */
 
 
+
 import java.util.Scanner;
 
 public class TaskB3 {
