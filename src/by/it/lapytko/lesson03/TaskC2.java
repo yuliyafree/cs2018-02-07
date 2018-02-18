@@ -27,9 +27,9 @@ public class TaskC2 {
 
     public static int sumDigitsInNumber(int number) {
         int a = number % 10;
-        int b = 546 % 10;
-        int c = 54 % 10;
-        int d = 50 % 45;
+        int b = (number/10) % 10;
+        int c = (number/100) % 10;
+        int d = (number/1000) % 10;
         int sum = a + b + c + d;
         return sum;
     }
